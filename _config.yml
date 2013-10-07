@@ -29,11 +29,7 @@ email:
 root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source
-<<<<<<< HEAD
 destination: /home/rails/octo/darky-site/public
-=======
-destination: darky-www
->>>>>>> d940df1012142542b64c9d3a7aeb8657f6176125
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
