@@ -8,38 +8,12 @@ categories:
 
 Это заметка себе на память, о том, какие в итоге шаги привели к работоспособности схемы автоматического апдейта блога по коммиту в репозиторий.
 
-Prerequisites:
-- sinatra and unicorn installed
-
-1. Added 'config.ru' file, where we load our Sinatra file, and run the app by 'run App.new'
-
-``` ruby
-require 'sinapp'
-
-run App.new
-```
-
-2. Added 'sinapp' file with:
-
-``` ruby
+Prerequisites: Sinatra and Unicorn installed.
 
 
-require 'rubygems'
-require 'sinatra'
-require 'haml'
- 
-class App < Sinatra::Application
-	post '/bazinga' do
-		# This line will be in logs
-  		puts "lalala #{params.inspect}"
-  		# And this is going to be response sent to client
-  		"I got some: #{params.inspect}"
-	end
-end
-
-
-```
-
-3. Restarted Unicorn
-
-Should work!
+1. Let Unicorn know there is a application. This will be done via 'config.ru' file.
+	{% include_code lang:ruby sinatra.config.ru %}
+2. Create minimalistic Sinatra application:
+	{% include_code lang:ruby sinapp.rb %}
+3. Restart Unicorn
+4. Profit!

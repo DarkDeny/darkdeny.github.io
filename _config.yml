@@ -29,7 +29,11 @@ email:
 root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source
+<<<<<<< HEAD
 destination: /home/rails/octo/darky-site/public
+=======
+destination: darky-www
+>>>>>>> d940df1012142542b64c9d3a7aeb8657f6176125
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
@@ -69,7 +73,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: darkdeny
 twitter_tweet_button: true
 
 # Google +1
