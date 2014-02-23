@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://darky.softtiny.com
-title: Tiny Darky blog
+title: Tiny Darky Blog
 subtitle: Live in future, build what is missing.
 author: DarkDeny
 simple_search: http://google.com/search
@@ -29,7 +29,7 @@ email:
 root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: /home/rails/octo/darky-site/public
+destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
