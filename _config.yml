@@ -1,0 +1,26 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Tiny Darky Blog
+tagline:             'Live in future, build what is missing'
+description:         ''
+url:                 http://darky.softin.co
+baseurl:             /
+paginate:            5
+
+# About/contact
+author:
+  name:              DarkDeny
+  url:               https://twitter.com/DarkDeny
+  email:             darkdeny@gmail.com
+
+# Custom vars
+version:             1.0.0
